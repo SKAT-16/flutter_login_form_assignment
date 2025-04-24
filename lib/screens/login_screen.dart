@@ -24,7 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(
-              success ? '✅ Login successful!' : '❌ Invalid email or password.'),
+              success ? 'Login successful!' : 'Invalid email or password.'),
           backgroundColor: success ? Colors.green : Colors.red,
           behavior: SnackBarBehavior.floating,
         ),
